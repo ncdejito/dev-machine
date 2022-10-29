@@ -4,12 +4,13 @@ apps=(
 vscode
 obsidian
 python
-docker
+#docker
 )
 
+mkdir logs
 sudo apt update
 for app in "${apps[@]}"
 do
     echo "[LOG] Installing $app"
-    sh apps/$app.sh
+    sh apps/$app.sh > logs/$app.log
 done
