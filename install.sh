@@ -1,11 +1,10 @@
 #!/bin/bash
 
 apps=(
-    curl # requirement for docker.sh
-    # vim
-    # git
-    # tmux
-    obsidian
+vscode
+obsidian
+python
+docker
 )
 
 sudo apt update
