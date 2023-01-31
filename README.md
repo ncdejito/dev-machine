@@ -1,6 +1,6 @@
 # dev-machine
 
-Ubuntu 20.04
+Ubuntu 22.04
 
 ```
 sudo apt update
