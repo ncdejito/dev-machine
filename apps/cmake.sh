@@ -1,4 +1,4 @@
-sudo apt install cmake
+sudo apt install cmake -y
 
 # wget https://github.com/Kitware/CMake/releases/download/v3.25.2/cmake-3.25.2.tar.gz
 # tar -zxvf cmake-3.25.2.tar.gz
